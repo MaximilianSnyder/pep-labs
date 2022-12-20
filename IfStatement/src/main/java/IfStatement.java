@@ -21,7 +21,7 @@ public class IfStatement {
         if (bool==true){
         return x;
         }
-        else (bool==false)
+        else (bool==false){
         return y;
         }
     }
