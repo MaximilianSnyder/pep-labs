@@ -15,7 +15,7 @@ public class Parrot {
     public String copy(String text){
         return "hello";
     }
-    public String pass (String text){
+    public String pass (String Polly){
         return text;
     }
 }
