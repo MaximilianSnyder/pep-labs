@@ -16,6 +16,6 @@ public class Parrot {
         return "hello";
     }
     public String pass (String test){
-        return "hello";
+        return "text";
     }
 }
