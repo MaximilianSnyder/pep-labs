@@ -15,3 +15,12 @@ public class HelloWorldTest {
         Assert.assertEquals(expected,actual);
     }
 }
+
+public class HelloWorldTest {
+    @test
+    public void helloTest(){
+        String expected = "Hello, world!";
+        String actual = hw.sayHello().trim();
+        Assert.assertEquals(expected,actual);
+    }
+}
