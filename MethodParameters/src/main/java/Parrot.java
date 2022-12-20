@@ -1,3 +1,4 @@
+import javafx.scene.text.Text;
 
 public class Parrot {
     /**
@@ -12,6 +13,9 @@ public class Parrot {
      * @return text.
      */
     public String copy(String text){
-        return hello";
+        return "hello";
+    }
+    public String pass (String text){
+        return text;
     }
 }
