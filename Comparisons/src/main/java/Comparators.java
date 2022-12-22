@@ -16,8 +16,10 @@ public class Comparators {
     public boolean isEqual(int a, int b){
         if (a==b);
         return true;
+        if (a!=b);
+        return false;
     }
-
+    
     /**
      * @param a the first number to be compared.
      * @param b the second number to be compared.
