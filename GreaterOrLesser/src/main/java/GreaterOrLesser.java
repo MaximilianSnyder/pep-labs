@@ -1,5 +1,5 @@
 
-public class GreaterOrLesser {
+public class GreaterOrLesser{
     /**
      * Let's say part of a calculator app has to judge whether one number is bigger than another. This problem will
      * require you to use an if/else statement.
@@ -10,9 +10,8 @@ public class GreaterOrLesser {
      *          If neither is true, return "Equal". This problem is case-sensitive!
      */
     public String decide(int a, int b){
-        if (a == b);
-        return "Equal";}
-        if (a > b);
-        return 
-    
+        if (a == b);{
+        return "Equal";
+    }
+    }
 }
