@@ -13,7 +13,7 @@ public class GreaterOrLesser{
         if (a == b);{
         return "Equal";
     }
-        if (a > b);{
+        else if(a > b);{
             return "Greater";
         }
     }
