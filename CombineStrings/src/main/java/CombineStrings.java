@@ -12,10 +12,5 @@ public class CombineStrings {
         b = "xyz";
         return a.concat(b);
     }
-    public String combine(String 1, String 2){
-        1 = "123";
-        2 = "456";
-        return 1.concat(2)
-    }
 
 }
