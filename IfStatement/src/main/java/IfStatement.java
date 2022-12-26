@@ -22,6 +22,6 @@ public class IfStatement {
             return x;
         }
         else{
-            return y;
-        }
+           return y; 
     }
+ }
