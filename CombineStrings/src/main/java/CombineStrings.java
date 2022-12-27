@@ -12,5 +12,10 @@ public class CombineStrings {
         b = "xyz";
         return a.concat(b);
     }
+    public String combineTest2(String a, String b){
+        a = "123";
+        b = "456";
+        return a.concat(b);
+    }
 
 }
