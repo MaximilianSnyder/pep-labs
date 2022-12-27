@@ -13,8 +13,11 @@ public class GreaterOrLesser{
         if (a == b);{
         return "Equal";
     }
-        else if(a > b);{
+        if (a > b);{
             return "Greater";
+        }
+        if (a < b);{
+            return "Lesser";
         }
     }
 }
