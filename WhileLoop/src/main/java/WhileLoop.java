@@ -37,7 +37,7 @@ public class WhileLoop {
         int i = 0;
 
 //        code here
-
-        return sum;
+        while (i<5);{
+        return i++;}
     }
 }
