@@ -29,12 +29,9 @@ public class Expressions {
      * look into boolean operations to do this without using if/else statements.
      */
     public boolean returnNot(boolean b){
-        if (b == true){
-        return false;
-        }
-        else if (b == false){
-            return true;
-        }
+       System.out.println("b = "+(true));
+       return false;
+       
     }
 
     /**
@@ -59,7 +56,11 @@ public class Expressions {
      * look into boolean operations to do this without using if/else statements.
      */
     public boolean returnOr(boolean b1, boolean b2){
+        if (b1&b2 = true){
         return false;
+        else if 
+        }
+
     }
 }
 
