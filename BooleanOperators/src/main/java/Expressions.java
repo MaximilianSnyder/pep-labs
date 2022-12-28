@@ -14,14 +14,13 @@ public class Expressions {
      * @return if b is true, return true. if b is false, return false.
      */
     public boolean returnBoolean(boolean b){
-        if (b == true);
+        if (b == true){
         return true;
-
-        if (b == false);{
+        } 
+        else{
         return false;
         }        
-
-        }
+    }
 
 
     /**
