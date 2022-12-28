@@ -14,10 +14,15 @@ public class Expressions {
      * @return if b is true, return true. if b is false, return false.
      */
     public boolean returnBoolean(boolean b){
-        if (bool == true){
+        if (b == true);
+        return true;
+
+        if (b == false);{
         return false;
+        }        
+
         }
-    }
+
 
     /**
      * @param b a true/false value.
@@ -47,6 +52,7 @@ public class Expressions {
     public boolean returnOr(boolean b1, boolean b2){
         return false;
     }
-
-
 }
+
+
+
