@@ -1,3 +1,4 @@
+import com.azul.crs.client.models.VMArtifact.Type;
 
 public class InstantiationExample {
     /**
@@ -18,6 +19,7 @@ public class InstantiationExample {
      * @return any object.
      */
     public Object instantiateANewObject(){
+        Type: "any object";
         return null;
     }
 }
