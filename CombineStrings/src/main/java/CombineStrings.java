@@ -10,8 +10,6 @@ public class CombineStrings {
      * @return the combination of strings a and b.
      */
     public String combine(String a, String b){
-        a = 123 + 456;
-        b = abc + xyz;
         return a.concat(b);
     }
 }
