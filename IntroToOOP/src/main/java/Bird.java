@@ -45,7 +45,7 @@ public class Bird {
      *  * greater than or equal to 3.
      */
     public static String sound(){
-        if (ageMonths < 3){
+        if (int < 3){
         return "Tweet";
         }
         else{
