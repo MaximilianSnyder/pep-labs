@@ -1,3 +1,5 @@
+import org.eclipse.jetty.util.Pool.StrategyType;
+
 public class CombineStrings {
     /**
      * You can combine two strings using the '+' operator.
@@ -8,14 +10,8 @@ public class CombineStrings {
      * @return the combination of strings a and b.
      */
     public String combine(String a, String b){
-        a = "abc";
-        b = "xyz";
+        a = 123 + 456;
+        b = abc + xyz;
         return a.concat(b);
     }
-    public String combineTest2(String a, String b){
-        a = "123";
-        b = "456";
-        return a.concat(b);
-    }
-
 }
