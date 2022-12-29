@@ -41,9 +41,9 @@ public class ForLoop {
      */
     public String returnNumbers(int start, int end){
         String buildingString = " ";
-        for (int i = 0; i < 7; i++){
-            
-        }
+        for (int i = start; i < end; i++){
+            buildingString = buildingString + i + " ";
+            }
         
 
 //        for part 1, write:
