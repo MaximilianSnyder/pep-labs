@@ -19,7 +19,7 @@ public class InstantiationExample {
      * @return any object.
      */
     public Object instantiateANewObject(){
-        Type: "any object";
+        Type any object = 
         return null;
     }
 }
