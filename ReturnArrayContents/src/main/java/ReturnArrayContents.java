@@ -29,10 +29,10 @@ public class ReturnArrayContents {
      */
     public String arrayToString(int[] nums){
         
-        String str ="";
+        String str =" ";
 
         for (int i = 0; i < nums.length; i++){
-            str = str + "";
+            str = str + nums[i] + " ";
         }
         return str;
     }
