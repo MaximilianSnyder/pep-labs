@@ -40,9 +40,14 @@ public class ForLoop {
      *      @return the sum of all numbers between start and end, with start inclusive and end exclusive.
      */
     public String returnNumbers(int start, int end){
-        String buildingString = "";
+        String buildingString = " ";
+        for (int i = 0; i < 7; i++){
+            
+        }
+        
 
-//        code here
+//        for part 1, write:
+
 
         return buildingString;
     }
