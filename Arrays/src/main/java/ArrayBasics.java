@@ -16,7 +16,6 @@ public class ArrayBasics {
      */
     public int getLengthOfArray(int[] arr){
         int array = arr.length;
-        arr = new int[10];
         return array;
     }
 
@@ -41,7 +40,7 @@ public class ArrayBasics {
      * @return nothing. Because of pass-by-reference, any change to the array will be reflected across our java program.
      */
     public void setNthElementOfArray(int[] arr, int n, int val){
-        val = arr[n];
+        arr[n] = val;
     }
 
     /**
