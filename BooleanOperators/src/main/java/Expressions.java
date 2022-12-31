@@ -14,13 +14,10 @@ public class Expressions {
      * @return if b is true, return true. if b is false, return false.
      */
     public boolean returnBoolean(boolean b){
-        if (b == true){
+        if (b == true);
         return true;
         } 
-        else{
-        return false;
-        }        
-    }
+    
 
 
     /**
@@ -41,13 +38,11 @@ public class Expressions {
      * look into boolean operations to do this without using if/else statements.
      */
     public boolean returnAnd(boolean b1, boolean b2){
-        if (b1&b2 == true){
-        return true;
+        System.out.println("b1 && b2 = "+(true));
+        return false;
         }
-        else{
-            return false;
-        }
-    }
+    
+
 
     /**
      * @param b1 a true/false value.
