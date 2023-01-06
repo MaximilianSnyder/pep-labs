@@ -1,6 +1,6 @@
 
+import java.util.HashSet;
 import java.util.Set;
-
 /**
  * Sets are unordered collections of elements. Sets do not allow duplicates.
  *
@@ -20,8 +20,8 @@ public class SetExercise {
      * @return a new Set<Integer> object.
      */
     public Set<Integer> createSet(){
-        Set = new HashSet<Int>();
-        return Set<Int>;
+        Set<Integer> set = new HashSet<Integer>();
+        return set;
     }
 
     /**
@@ -30,7 +30,11 @@ public class SetExercise {
      * @return the size of set. (number of values)
      */
     public int getSize(Set<Integer> set){
-        return 0;
+        Set<Integer> set = new getSize<Integers>();
+        if ( set == 0){
+        return getSize;
+        }
+        else
     }
 
     /**
