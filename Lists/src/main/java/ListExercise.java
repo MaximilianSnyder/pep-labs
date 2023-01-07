@@ -40,7 +40,8 @@ public class ListExercise {
      * @return the size of List (number of items it holds.)
      */
     public int getSize(List<Integer> list){
-        return 0;
+        List<Integer> lists;
+        return lists.size();
     }
 
     /**
