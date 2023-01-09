@@ -4,5 +4,5 @@
  * See the Runner class for your task.
  */
 public class Class {
-    static String global_var = "this variable is static";
+    static String global_var = "this";
 }
