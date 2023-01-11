@@ -36,7 +36,6 @@ public class InsertARecord {
      * Note: when inserting strings, you wrap the string in a single quote. 'like this'
      * */
     public boolean problem1(){
-        String sql = FileUtil.parseSQLFile("problem1.sql");
         try {
             Connection connection = ConnectionUtil.getConnection();
             Statement s = connection.createStatement();
