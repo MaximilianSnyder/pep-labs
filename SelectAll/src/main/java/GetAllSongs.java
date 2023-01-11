@@ -44,7 +44,7 @@ public class GetAllSongs {
             ResultSet rs =s.executeQuery(sql);
 
             while(rs.next()){
-                songs.add(new Song(rs.getString(1), rs.getString(2)));
+                songs.add(new Song(rs.getString("Title"), rs.getString("Artist")));
             }
         } catch (SQLException e) {
             System.out.println("problem1: " + e.getMessage() + '\n');
