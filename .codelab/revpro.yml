@@ -42,10 +42,10 @@
   :count_labs_total: 96
   :count_labs_passed: 0
   :count_tests_total: 361
-  :count_tests_passed: 6
+  :count_tests_passed: 1
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 6
+  :count_tests_passed: 1
   Start:
     :Week: 1
     :Order: 1
@@ -362,7 +362,7 @@
     :Order: 6
     :Type: lab
     :count_tests: 7
-    :count_tests_passed: 6
+    :count_tests_passed: 1
     :tests:
       createMapTest: 1
       getSizeTest1: 1
@@ -371,6 +371,10 @@
       addKeyValuePairTest2: 1
       removeKeyValuePairTest1: 1
       overwriteValueTest1: 1
+      maxMinTest1: 0
+      maxMinTest2: 0
+      maxMinTest3: 0
+      maxMinTest4: 1
   Queue:
     :Week: 3
     :Order: 7
