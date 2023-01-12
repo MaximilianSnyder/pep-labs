@@ -28,8 +28,8 @@ public class Song {
         return this.artistName;
     }
 
-    public void setArtistName(String artistName) {
-        this.artistName = artistName;
+    public String setArtistName(String artistName) {
+        return this.artistName = artistName;
     }
 
     public Song songName(String songName) {
