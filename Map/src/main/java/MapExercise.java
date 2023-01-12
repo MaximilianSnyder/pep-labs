@@ -52,12 +52,15 @@ public class MapExercise {
      * @param map a map to be manipulated.
      * @param key the key of the new pair.
      * @param value the value of the new pair.
+     * @return 
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
-    public void addKeyValuePair(Map<Integer,String> map, int key, String value){
+    public int addKeyValuePair(Map<Integer,String> map, int key, String value){
         map.put(1, "banana");
         map.put(2, "pear");
         map.put(3, "apple");
+        int len = map.size();
+        return len;
     }
 
     /**
