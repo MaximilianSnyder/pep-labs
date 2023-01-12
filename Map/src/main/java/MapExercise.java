@@ -1,6 +1,7 @@
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * Maps are key/value pairs. They are used in situations where we have some value that we'd like
@@ -15,6 +16,10 @@ import java.util.Map;
  * https://www.w3schools.com/java/java_hashmap.asp
  */
 public class MapExercise {
+
+    private Map<Integer, String> set;
+    private Map<Integer, String> hash_map;
+
 
     /**
      * Create and instantiate a collection that implements that Map interface, like
@@ -37,9 +42,9 @@ public class MapExercise {
      * @return the size of map.
      */
     public int getSize(Map<Integer,String> map){
-//        return total number of key/value pairs in the map
-        int len=map.size();
-        return len;
+        //        return total number of key/value pairs in the map
+       String value = map.size("");
+       return value;
     }
 
     /**
