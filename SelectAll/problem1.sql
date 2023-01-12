@@ -1,1 +1,1 @@
-String sql1 = "Select * FROM song;";
+Select * FROM song;
