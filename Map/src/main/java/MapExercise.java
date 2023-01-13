@@ -43,8 +43,8 @@ public class MapExercise {
      */
     public int getSize(Map<Integer,String> map){
         //        return total number of key/value pairs in the map
-       int len = map.size();
-       return len;
+       int size = map.size();
+       return size;
     }
 
     /**
