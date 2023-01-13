@@ -38,7 +38,7 @@ public class JavalinSingleton {
          */
         app.post("/problem2", ctx -> {
                //implement logic here
-               String jsonString=ctx.body();
+               String jsonString= ctx.post();
                ObjectMapper om=new ObjectMapper();
                Song song = om.readValue(jsonString, Song.class);
                ctx.result(song.setArtistName("Beatles"));
