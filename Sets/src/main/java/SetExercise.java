@@ -30,11 +30,8 @@ public class SetExercise {
      * @return the size of set. (number of values)
      */
     public int getSize(Set<Integer> set){
-        Set<Integer> set = new getSize<Integers>();
-        if ( set == 0){
-        return getSize;
-        }
-        else
+        int size = set.size();
+        return size;
     }
 
     /**
@@ -44,7 +41,8 @@ public class SetExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void addUniqueItem(Set<Integer> set, int item){
-
+        Numbers.add(int set);
+        Numbers.add(item);
     }
 
     /**
