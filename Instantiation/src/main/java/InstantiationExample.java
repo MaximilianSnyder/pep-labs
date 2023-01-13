@@ -19,8 +19,7 @@ public class InstantiationExample {
      * @return any object.
      */
     public Object instantiateANewObject(){
-        if (object = new instantionANewObject){
-        return object;
+        int a = 0;
+        return a;
         }
-    }
-}
+ }
