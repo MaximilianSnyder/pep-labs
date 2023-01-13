@@ -32,7 +32,7 @@ public class GroceryDAO {
             PreparedStatement ps = connection.prepareStatement(sql);
             ResultSet rs = ps.executeQuery();
             while(rs.next()){
-                groceries.add(rs.getString("grocery_name"));
+                groceries.add(rs.getString("groceryName"));
             }
         }catch(SQLException e){
             e.printStackTrace();
@@ -48,7 +48,7 @@ public class GroceryDAO {
         Connection connection = ConnectionUtil.getConnection();
         try {
             //Write SQL logic here
-            String sql = "INSERT INTO Grocery" + "STRING groceryName";
+            String sql = "INSERT INTO grovery Values ('" + groceryName +"');";
             PreparedStatement ps = connection.prepareStatement(sql);
             ps.executeUpdate();
         }catch(SQLException e){
