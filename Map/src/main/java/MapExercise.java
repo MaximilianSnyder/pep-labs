@@ -55,10 +55,8 @@ public class MapExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public int addKeyValuePair(Map<Integer,String> map, int key, String value){
-        map.put(1, "banana");
-        map.put(2, "pear");
-        map.put(3, "apple");
-        return map.size();
+        map.put(key, value);
+        return key;
     }
 
     /**
