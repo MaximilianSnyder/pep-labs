@@ -1,1 +1,3 @@
-SELECT * FROM employee WHERE salary > 50000.00 AND NOT IN (first_name, 'Steve');
+SELECT * FROM employee 
+WHERE salary > 50000.00 
+NOT (SELECT * FROM employee WHERE first_name ='STEVE'); 
