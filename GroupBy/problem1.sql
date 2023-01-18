@@ -1,3 +1,2 @@
-SELECT artist, COUNT(song) 
-FROM artist 
-GROUP BY artist, COUNT(song)
+SELECT artist, COUNT(song)
+GROUP BY COUNT(song) ASC;
