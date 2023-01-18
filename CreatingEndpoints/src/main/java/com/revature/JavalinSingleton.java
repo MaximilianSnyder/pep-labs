@@ -13,10 +13,10 @@ public class JavalinSingleton {
      */
     public static Javalin getInstance(){
         Javalin app = Javalin.create();
-        app.start(9000);
-        // HTTP GET REQUEST to http://localhost:9000/hello
+        
+        
     app.get("/hello", ctx -> {
-        //logic to be executed when this endpoint is hit
+        
         ctx.result("Hello World");
     });
 
