@@ -1,2 +1,1 @@
-SELECT artist, COUNT(song)
-GROUP BY COUNT(song) ASC;
+GROUP BY artist AND COUNT(song) ASC;
