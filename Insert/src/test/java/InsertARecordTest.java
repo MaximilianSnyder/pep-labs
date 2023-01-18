@@ -47,6 +47,6 @@ public class InsertARecordTest {
      */
     @Test
     public void addSongTest(){
-        Assert.assertTrue(insertARecord.problem1());
+        Assert.assertTrue(insertARecord.problem1(null));
     }
 }
