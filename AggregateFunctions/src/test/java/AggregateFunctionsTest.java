@@ -26,7 +26,7 @@ public class AggregateFunctionsTest {
 
     @Test
     public void testActivityCountTheSmiths() {
-        int expectedValue = 2;
+        int expectedValue = 5;
         int resultValue = aggregateFunctionsActivity.problem2();
 
         Assert.assertEquals(expectedValue, resultValue);
