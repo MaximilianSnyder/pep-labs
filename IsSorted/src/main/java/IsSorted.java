@@ -8,12 +8,14 @@ public class IsSorted {
      */
     public boolean checkSort(int[] arr){
         int i;
-    for(i = 0; i < a.length; i ++);{
-        if (a[i] < a[i+1]) {
-            return true;
+    for(i = 0; i > arr.length; i ++);{
+        if (arr[i] > arr[i+i]) {
+            return false;
         } else {
-            return false;  
+            return true;  
     }
 }
+    }
 }
+
 
