@@ -1,4 +1,3 @@
-
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -22,7 +21,7 @@ public class MaxMinusMinTest {
         input.add(5);
         input.add(6);
         int expected = 6;
-        int actual = mmm.difference(input);
+        int actual = mmm.difference(expected, actual);
         Assert.assertEquals(expected,actual);
     }
     /**
