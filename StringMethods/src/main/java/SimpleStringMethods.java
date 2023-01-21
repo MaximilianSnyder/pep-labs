@@ -40,7 +40,8 @@ public class SimpleStringMethods {
      */
     public int indexOf(String s, char c){
         String str = s;
-        return str.indexOf("c");
+        char c = str.indexOf("c");
+        return c;
     }
 
 }
