@@ -103,7 +103,7 @@ public class FlightDAO {
      *
      * @param flight an object modelling a Flight.
      */
-    public Flight insertFlight(Flight flight){
+    public static Flight insertFlight(Flight flight){
         Connection connection = ConnectionUtil.getConnection();
         try {
             //Write SQL logic here. When inserting, you only need to define the departure_city and arrival_city
