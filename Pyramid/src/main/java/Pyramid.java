@@ -28,10 +28,10 @@ public class Pyramid {
      */
     public String returnPyramid(int n){
         int i = 0;
-        String pyramidString = "";
+        String pyramidString = " ";
         for (i = 0; i < n; i++){
             pyramidString=pyramidString + "/n";
-            for (i = 0; i< n; i++){
+            for (i = 0; i < n; i++){
                 pyramidString = pyramidString + "*";
             }
         }
