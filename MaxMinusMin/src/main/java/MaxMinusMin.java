@@ -15,7 +15,10 @@ public class MaxMinusMin {
             return 0;
         }
         else{
-            return nums.get(0);
+            Integer max = nums.get(0);
+            Integer min = nums.get(0);
+            return 0;
+
         }
         
         }
