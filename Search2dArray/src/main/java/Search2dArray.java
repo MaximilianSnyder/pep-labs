@@ -1,4 +1,6 @@
 public class Search2dArray {
+    private static final int[] A = null;
+
     /**
      * Receive a 2d array of ints. (That's an array of arrays!)
      * Your task is to search the array for a matching value, return true if found false otherwise.
@@ -10,6 +12,16 @@ public class Search2dArray {
      * @return true if nums contains target, and false otherwise.
      */
     public boolean search(int[][] nums, int target){
-        return false;
+        for (int i = 0; i<A.length; i++){
+
+            if (target == A[i]) return true;
+            
+            if (target < A[i]) return false;
+            
+            }
+            
+            return false;
+            
+            }
     }
-}
+
