@@ -1,1 +1,1 @@
-SELECT * FROM class LEFT OUTER JOIN student ON class.class_title = student.student_name;
+SELECT * FROM class LEFT OUTER JOIN student ON class.class_title = student.class_title;
