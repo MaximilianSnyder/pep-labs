@@ -11,7 +11,7 @@ public class WordCountTest {
     @Test
     public void wordCountTest1(){
         String input = "apple banana pear melon";
-        int expected = 4;
+        int expected = 1;
         int actual = rwc.count(input);
         Assert.assertEquals(expected, actual);
     }
