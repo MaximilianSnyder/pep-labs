@@ -14,7 +14,7 @@ public class SimpleStringMethods {
      * @return the length of string s.
      */
     public int length(String s){
-        String s = new s.length();
+        int s = s.length();
         return s;
     }
 
@@ -25,7 +25,7 @@ public class SimpleStringMethods {
      * @return the character of String s that is located at position n.
      */
     public char charAt(String s, int n){
-        String s = charAt(s);
+        String s = s.charAt(n);
         char result = myStr.charAt(n);
         return result;
     }
