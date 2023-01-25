@@ -754,6 +754,7 @@
     :tests:
       testActivityInnerJoin1: 0
       classTest1: 0
+      initializationError: 0
   OuterJoin:
     :Week: 6
     :Order: 3
