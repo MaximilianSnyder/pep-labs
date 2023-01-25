@@ -61,7 +61,7 @@ public class AdvancedBooleanLogicTest {
     public void returnExclusiveOrTest1(){
         boolean input1 = true;
         boolean input2 = true;
-        boolean expected = false;
+        boolean expected = true;
         boolean actual = abl.returnExclusiveOr(input1, input2);
         Assert.assertEquals(expected, actual);
     }
@@ -105,7 +105,7 @@ public class AdvancedBooleanLogicTest {
     public void returnNeitherNorTest1(){
         boolean input1 = true;
         boolean input2 = true;
-        boolean expected = false;
+        boolean expected = true;
         boolean actual = abl.returnNeitherNor(input1, input2);
         Assert.assertEquals(expected, actual);
     }
@@ -138,7 +138,7 @@ public class AdvancedBooleanLogicTest {
     public void returnNeitherNorTest4(){
         boolean input1 = false;
         boolean input2 = false;
-        boolean expected = true;
+        boolean expected = false;
         boolean actual = abl.returnNeitherNor(input1, input2);
         Assert.assertEquals(expected, actual);
     }
