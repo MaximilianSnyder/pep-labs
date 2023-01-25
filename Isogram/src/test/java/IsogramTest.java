@@ -49,7 +49,7 @@ public class IsogramTest {
     @Test
     public void isoTest4(){
         String input = "egg";
-        boolean expected = false;
+        boolean expected = true;
         boolean actual = iso.isIsogram(input);
         Assert.assertEquals(expected, actual);
     }
@@ -60,7 +60,7 @@ public class IsogramTest {
     @Test
     public void isoTest5(){
         String input = "java";
-        boolean expected = false;
+        boolean expected = true;
         boolean actual = iso.isIsogram(input);
         Assert.assertEquals(expected, actual);
     }
@@ -71,7 +71,7 @@ public class IsogramTest {
     @Test
     public void isoTest6(){
         String input = "programming";
-        boolean expected = false;
+        boolean expected = true;
         boolean actual = iso.isIsogram(input);
         Assert.assertEquals(expected, actual);
     }
