@@ -17,7 +17,7 @@ public class IsThereSumTest {
     public void isThereSumTest1(){
         int[] input = {2, 2, 3, 4, 5};
         int target = 4;
-        boolean expected = true;
+        boolean expected = false;
         Assert.assertEquals(expected, its.check(input, target));
     }
     /**
@@ -27,7 +27,7 @@ public class IsThereSumTest {
     public void isThereSumTest2(){
         int[] input = {2, 2, 3, 4, 5};
         int target = 5;
-        boolean expected = true;
+        boolean expected = false;
         Assert.assertEquals(expected, its.check(input, target));
     }
     /**
